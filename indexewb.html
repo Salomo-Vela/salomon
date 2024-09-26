@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="login, usuario, clave">
+    <meta name="description" content="login con HTNL, CSS y JavaScript">
+    <title>Login y Registro</title>
+    <link rel="icon" type="imag/icon" href="imagenes/social.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--- para agregar tipografia externa--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!-- para agregar iconos externos-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Contenedor para registro de usuario-->
+    <header class="container register">
+        <div class="login-information">
+            <div class="info-childs">
+                <h2>Bienvenidos</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium harum debitis quo expedita dolor</p>
+                <input type="submit" value="Iniciar sesión" id="btnIniciar">
+            </div>
+        </div>
+
+        <div class="registo-information">
+            <div class="registro-information-childs">
+                <h2>Crear una cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-instagram' ></i>
+                    <i class='bx bxl-github' ></i>
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-whatsapp' ></i>
+                </div>
+                <p>Usa tu email para registrarte</p>
+                <form action="">
+                    <label for="">
+                        <i class='bx bxs-user-circle' ></i>
+                        <input type="text" id="txtUser" placeholder="Ingrese Nombre">
+                    </label>
+
+                    <label for="">
+                        <i class='bx bxs-envelope' ></i>
+                        <input type="email" id="txtEmail" placeholder="Correo">
+                    </label>
+
+                    <label for="">
+                        <i class='bx bxs-lock-alt' ></i>
+                        <input type="password" id="txtPass" placeholder="Contraseña">
+                    </label>
+
+                    <input type="submit" value="Registrarse">
+
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!--Contenedor para Acceder o Login a usuario-->
+    <header class="container login hide">
+        <div class="login-information">
+            <div class="info-childs">
+                <h2>Bienvenidos Nuevamente</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium harum debitis quo expedita dolor</p>
+                <input type="submit" value="Registrarse" id="btn_ir_a_registrar">
+            </div>
+        </div>
+
+        <div class="registo-information">
+            <div class="registro-information-childs">
+                <h2>Iniciar Sesión</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-instagram' ></i>
+                    <i class='bx bxl-github' ></i>
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-whatsapp' ></i>
+                </div>
+                <p>Iniciar sesión con una cuenta</p>
+                <form action="vistas/home.html">
+
+                    <label for="">
+                        <i class='bx bxs-envelope' ></i>
+                        <input type="email" id="txtEmail" placeholder="Correo">
+                    </label>
+
+                    <label for="">
+                        <i class='bx bxs-lock-alt' ></i>
+                        <input type="password" id="txtPassword" placeholder="Contraseña">
+                    </label>
+
+                    <input type="submit" value="Registrarse" id="btnIngresar">
+
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="JS/app.js"></script>
+
+</body>
+</html>
